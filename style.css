@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Belanosima', sans-serif;
+}
+
+/* CONNEXION / INSCRIPTION */
+/* CONNEXION / INSCRIPTION */
+/* CONNEXION / INSCRIPTION */
+
+.form {
+  width: 80%;
+  margin-left: 10%;
+  background-color: white;
+  box-shadow: 0 0 15px black;
+  display: grid;
+  justify-items: center;
+}
+
+.title-form {
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+.bloc-form {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.bloc-form > input {
+  width: 75%;
+  border: none;
+  outline: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-form {
+  width: 80%;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.btn-form-switch {
+  width: 80%;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+.btn-form-switch:hover {
+  cursor: pointer;
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+.btn-form:hover {
+  cursor: pointer;
+}
+
+.separator {
+  width: 80%;
+}
+
+@media screen and (min-width: 550px) {
+  .form {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
